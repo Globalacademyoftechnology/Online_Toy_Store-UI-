@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+<title>Online Toy Store</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+    body{
+        background: url("IMAGES/IMAGE20.jpg") left no-repeat;
+        background-size: cover;
+        height:500px;
+        width:auto
+    }
+	.toys{
+		margin-left:205px;
+	}
+	.opacity_nav{
+		opacity:0.8;
+	}
+	a{
+		font-size:20px;
+	}
+	
+	.para_style{
+		color:brown;
+		font-size:16px;
+		font-style:italic;
+		font-weight:bold;
+		line-height:35px;
+	}
+	.para2_style{
+		color:lightseagreen;
+		font-size:16px;
+		font-style:italic;
+		font-weight:bold;
+		line-height:35px;
+	}
+	marquee{
+		color:darkmagenta;
+	}
+    
+    .myform{
+        padding:30px;
+        margin-left:650px;
+        margin-top:80px;
+        border:2px solid black;
+        border-radius: 100px;
+        width:550px;
+        background-color:black;
+        
+    }
+    button{
+        margin-left:130px;
+        width:200px;
+        border:1px solid black;
+        border-radius:50px;
+    }
+    .label_input{
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .label_remember{
+        font-weight: normal;
+        color:white;
+        font-size: 17px;
+        font-family:cursive,sans-serif;
+    }
+    
+
+    .input_len{
+        width:350px;
+        border-radius:30px;
+    }
+    .forgot_pass{
+        margin-bottom:100px;
+        margin-left:230px;
+        font-size: 15px;
+        color:white;
+        font-style: italic;
+        text-decoration-style: none;
+
+    }
+    .new_user{
+        font-size: 15px;
+        color: white;
+        font-style: italic;
+        text-decoration-style: none;
+    }
+    .img_login{
+        margin-left:10px;
+        margin-top:45px;
+        margin-bottom:60px;
+    }
+
+    .marquee_ultimate_toy{
+        margin-top:165px;
+        margin-left:5px;
+    }
+    
+    .ultimate_toy{
+        margin-top:20px;
+        color:teal;
+        font-family: cursive,sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .para_toys{
+        color:teal;
+        font-family: cursive,sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+</style>
+
+</head>
+<body>
+<nav class="navbar bg-dark navbar-dark navbar-expand-lg fixed-top opacity_nav">
+ <div class="container">
+  <a href="index.html" class="navbar-brand ml-sm-0"><img src="IMAGES/IMAGE22_logo.jpg" alt="logo" width="120px" height="65px"></a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+  	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="About.html">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="#">Login</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="sign_up.html">Sign Up</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="order.html">Order Now</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mr-sm-4 font-weight-bold font-italic" href="contact.html">Contact Us</a>
+			</li>
+		</ul>
+	</div>
+ </div>
+</nav>
+<br>
+
+
+<header id="mainHeader"></header>
+</br>
+</br>
+<div class="container">
+<!--    <div class="row">
+        <div class="col-sm-6">
+            <img src="IMAGES/IMAGE17.jpg" alt="login_page" class="img_login" width="600px" height="450px">
+        </div>
+        <div class="col-sm-6">    -->
+            <div class="container">
+                <div class="myform">
+                <form>
+                    <div class="form-group">
+                    <label for="email" class="label_input">Email</label>
+                    <input type="text" class="form-control input_len" id="email" placeholder="Enter Email">
+                    </div>
+            
+                    <div class="form-group">
+                    <label for="pass" class="label_input">Password</label>
+                    <input type="password" class="form-control input_len" id="pass" placeholder="Enter Password">
+                    </div>
+                    </br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="checkbox" id="check">
+                        <label class="form-check-label label_remember" for="check">
+                          Remember me
+                        </label>
+                    </div>
+                    </br>
+                    <button type="submit" class="btn btn-secondary">Login</button></br></br>
+                    <div class="container">
+                        <a href="forgot_password.html" class="forgot_pass">Forgot password?</a>&nbsp;&nbsp;&nbsp;
+                        <a href="sign_up.html" class="new_user">New User?</a>
+                    </div>
+            
+                </form>
+                </div>
+            </div>
+ <!--       </div>
+    </div>   -->
+</div>
+</br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <marquee  behaviour="slide" direction="right" scrollamount="15" class="marquee_ultimate_toy"><img src="IMAGES/ultimate_toy.jpg" width="400px" height="300px"></marquee>
+        </div>
+        <div class="col-sm-6">
+            <h3 style="color:black;font-style:italic; font-weight:normal; font-family: cursive,sans-serif; margin-top:160px;">Lego - The Ultimate Toy Brand</h3>
+            <p class="ultimate_toy">Legos popularity and diversity know no bounds. This simple block of 
+                plastic has become a pandora's box to limitless imagination. It is not just a toy; it is now 
+                a cultural identity. There are even animation movies created with these blocks. But in its 
+                initial days, no one anticipated that it would grow so big. In fact, the company was hardly 
+                making money selling the blocks. Kids were not very fond of the toy in its beginnings. 
+                But of course, that has drastically changed today.The company takes pride in its product and 
+                understands the importance of innovation, which has brought it to such a big stage. 
+                In their brand framework, they mention that children are their role models. They desire to be a 
+                global force for instituting and innovating learning-through-play. They wish to encourage and amplify 
+                innovative thinking in children through their creation. </p>
+        </div>
+    </div></br></br>
+    <div class="row">
+        <div class="col-sm-6">
+            <marquee  behaviour="slide" direction="left" scrollamount="16"><img src="IMAGES/avengers.jpg" width="400px" height="300px"></marquee>
+        </div>
+        <div class="col-sm-6">
+            <h3 style="color:black;font-style:italic; font-weight:normal; font-family: cursive,sans-serif;">Monopolise your love for Avengers with the Monopoly Marvel Avengers Edition Board Game!!!</h3>
+        </br><p class="para_toys">Well yes, we have this double treat for you right here as Marvel Comics gifts all their fans with this special 
+            edition of toys, celebrating their 80th Anniversary! The MARVEL COMICS 80TH ANNIVERSARY LEGENDS 
+            SERIES 6-INCH-SCALE VINTAGE COMIC-INSPIRED HULK VS. WOLVERINE COLLECTIBLE ACTION FIGURE 2-PACK is 
+            here finally. You no longer have to choose between who rules the Marvel Universe but can be in 
+            possession of two of the greatest heroes of all times.</p>
+        </div>
+    </div>
+    </br></br>
+    <div class="row">
+        <div class="col-sm-6">
+            <marquee  behaviour="slide" direction="right" scrollamount="16" style="margin-top:10px"><img src="IMAGES/gun.jpg" width="400px" height="300px"></marquee>
+        </div>
+        <div class="col-sm-6">
+            <h3 style="color:black;font-style:italic; font-weight:normal; font-family: cursive,sans-serif;">Check out the new NERF N-Strike Elite Surgefire!</h3>
+        </br><p class="para_toys">Experience the excitement, energy, and attitude of the Nerf brand, and find out why 
+            It's Nerf or Nothin'. Nerf N-Strike Elite blasters from Hasbro deliver the ultimate in blaster performance 
+            for Nerf battles. Slam the competition with the Nerf N-Strike Elite SurgeFire blaster! 
+        </p>
+        <p class="para_toys">
+            <b style="color:black; font-size:17px;"><u>PRODUCT FEATURES</u></b>
+            - 15-dart rotating drum
+            
+            - Blast Nerf Elite darts from the 15-dart rotating drum
+            
+            - Fire darts up to 21 meters
+            
+            - The blaster fires Nerf Elite darts up to 21 meters
+            
+            - Slam-fire action
+            
+            - Launch darts fast with slam-fire action
+            
+            - Pump-action blasting
+            
+            - The blaster features pump-action blasting
+            
+            - 15 Elite darts
+            
+            - SurgeFire blaster comes with 15 Elite darts</p>
+        </div>
+    </div>
+
+</div>
+</br>
+</br>
+</br>
+</br>
+<footer class="py-4 bg-dark">
+	<div class="container">
+		<p class="m-0 text-center text-white">Copyright © 2021 Online Toy Store. All Rights Reserved.</p>
+	</div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
